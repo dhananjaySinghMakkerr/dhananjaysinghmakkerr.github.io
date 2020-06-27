@@ -1,0 +1,145 @@
+body{
+  margin-left:0;
+  margin-right:0;
+}
+.card{
+  margin-bottom:10%;
+}
+.skills
+{
+  padding:2% 10%;
+  margin-top:10%;
+  text-align: center;
+  background-color: #5E72EB;
+}
+.jkps
+{
+  padding-right:50px;
+}
+.bvcoe
+{
+    padding-left:50px;
+}
+.allh4
+{
+  font-family: Montserrat;
+  font-weight: 700;
+}
+#Education{
+  padding:2% 10%;
+  margin-top:5%;
+  text-align: center;
+  background-color: #5E72EB;
+}
+.row{
+  padding-top:20px;
+}
+.pics{
+  height:30%;
+  width:30%;
+  display:block;
+  margin:0 auto;
+  padding:20px;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #5E72EB;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #5E72EB;
+}
+.cardpics
+{
+  height:60%;
+  width:60%;
+  padding:20px;
+  display:block;
+  margin:0 auto;
+
+}
+#Moments{
+
+  text-align: center;
+  font-family: Montserrat;
+  font-weight:400;
+
+}
+.navigation
+{
+  padding:20px;
+}
+#aboutme
+{
+  text-align: center;
+  padding:2% 10%;
+}
+.Mypic
+{
+  height:20%;
+  width:20%;
+}
+#main{
+  margin-left: 0;
+  margin-right: 0;
+  background-color:#5E72EB;
+  padding:2% 10%;
+
+}
+.nav-item{
+  font-family: Montserrat-light;
+  font-weight: 600;
+  font-size:0.8rem;
+  padding:2px;
+}
+.nav-link{
+    color:#FF9190;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.nav-item{
+  padding: 5%;
+}
+#background
+{
+  height:100%;
+  width:100%;
+}
+.mainh1
+{
+  font-family: 'Abril Fatface', cursive;
+  margin:5%;
+}
+#picheading{
+  height:100%;
+  width:50%;
+  border:solid;
+  margin-left:50%;
+}
+.mainh3
+{
+  margin-left:2%;
+  margin-top:5%;
+  font-family: Montserrat;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.skh3
+{
+  margin-bottom:5%;
+}
+i{
+  margin:10px;
+}
+.intro{
+  font-family: Ubuntu;
+  line-height:2;
+  font-weight:bold;
+  margin-left:2%;
+  margin-top:2%;
+  color:#5E72EB;
+}
