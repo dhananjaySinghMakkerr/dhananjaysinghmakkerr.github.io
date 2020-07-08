@@ -1,9 +1,23 @@
+
 body{
   margin-left:0;
   margin-right:0;
 }
+.mainh3.head{
+  margin-top:7%;
+  font-weight:bolder;
+  text-decoration: none;
+
+}
 .card{
   margin-bottom:10%;
+}
+.ContactMe{
+  text-align: center;
+  margin-bottom:5%;
+}
+.ContactForm{
+  margin:2% 15%;
 }
 .skills
 {
@@ -14,11 +28,11 @@ body{
 }
 .jkps
 {
-  padding-right:50px;
+  margin-right:50px;
 }
 .bvcoe
 {
-    padding-left:50px;
+    margin-left:50px;
 }
 .allh4
 {
@@ -40,6 +54,43 @@ body{
   display:block;
   margin:0 auto;
   padding:20px;
+}
+.sm
+{
+  text-align: center;
+}
+.insta{
+  display: block;
+  font-size:3rem;
+  right:30%;
+  top:10%;
+  color:#5E72EB;
+
+}
+.icons
+{
+  text-align: center;
+  z-index:10;
+  position: absolute;
+  margin-left: 30%;
+  top:62%;
+  right:30%;
+}
+
+.smimg
+{
+  height:70%;
+  width:60%;
+  display: block;
+  margin-left:17%;
+  transform: rotate(10deg);
+  border-style:dashed;
+  margin-top:5%;
+  margin-bottom:5%;
+
+}
+.submit{
+   margin-top:2%;
 }
 .carousel-control-next-icon:after
 {
@@ -78,6 +129,7 @@ body{
   text-align: center;
   padding:2% 10%;
 }
+
 .Mypic
 {
   height:20%;
@@ -101,6 +153,12 @@ body{
     font-family: Montserrat;
     font-weight: 900;
 }
+.b1
+{
+  float: right;
+  display:inline;
+
+}
 .nav-item{
   padding: 5%;
 }
@@ -114,6 +172,7 @@ body{
   font-family: 'Abril Fatface', cursive;
   margin:5%;
 }
+
 #picheading{
   height:100%;
   width:50%;
@@ -142,4 +201,20 @@ i{
   margin-left:2%;
   margin-top:2%;
   color:#5E72EB;
+}
+.navbar-toggler
+{
+  position: absolute;
+  right:20px;
+  top:37px;
+}
+@media (max-width:1028px){
+  .smimg{
+    position:static;
+    transform:rotate(0);
+  }
+
+
+
+
 }
