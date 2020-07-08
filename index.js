@@ -21,9 +21,8 @@ document.querySelector(".submit").addEventListener("click",sendemail);
 function sendemail()
 {
     var body = "Name: " + document.getElementsByClassName("urName").value + "\n";
-
     body+="PhoneNo:" + document.getElementsByClassName("ph").value+"\n";
     body+="Feedback:"+document.getElementsByClassName("feedback").value+"\n";
-    var location = "mailto:dhananjaysinghmakkerr@gmail.com?subject=feedback&body=" + encodeURIComponent(body);
+    var location = "mailto:dhananjaysinghmakkerr@gmail.com?subject=feedback for you&body=" + encodeURIComponent(body);
     window.location.href = location;
 }
