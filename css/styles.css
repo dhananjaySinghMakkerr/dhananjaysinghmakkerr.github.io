@@ -3,11 +3,7 @@ body{
   margin-left:0;
   margin-right:0;
 }
-.carousel-item
-{
-  overflow: hidden;
-  height:300px;
-}
+
 .mainh3.head{
   margin-top:7%;
   font-weight:bolder;
