@@ -24,6 +24,6 @@ function sendemail()
 
     body+="PhoneNo:" + document.getElementsByClassName("ph").value+"\n";
     body+="Feedback:"+document.getElementsByClassName("feedback").value+"\n";
-    var location = "mailto:dhananjaysinghmakkerr@gmail.com?subject=Hello world&body=" + encodeURIComponent(body);
+    var location = "mailto:dhananjaysinghmakkerr@gmail.com?subject=Feedback&body=" + encodeURIComponent(body);
     window.location.href = location;
 }
